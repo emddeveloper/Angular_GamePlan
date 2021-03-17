@@ -1,9 +1,10 @@
 <div class="columns is-mobile mt-6">
   <div class="column is-three-fifths is-offset-one-fifth">
+    <h2 class="mb-6 title">
+      Angular @Input,*ngFor,Parent to Child Communication by @SK
+    </h2>
     <div class="columns">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
+      <app-card *ngFor="let post of posts" [post]="post"></app-card>
     </div>
   </div>
 </div>

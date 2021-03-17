@@ -2,15 +2,14 @@
   <div class="card">
     <div class="card-image">
       <figure class="image is-4by3">
-        <img src="assets/biking.jpeg" alt="Placeholder image" />
+        <img [src]="post.imageUrl" alt="Placeholder image" />
       </figure>
     </div>
     <div class="card-content">
       <div class="content">
-        <p class="title is-4">John Smith</p>
-        <p class="subtitle is-6">@johnsmith</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-        iaculis mauris.
+        <p class="title is-4">{{ post.title }}</p>
+        <p class="subtitle is-6">{{ post.username }}</p>
+        {{ post.content }}
       </div>
     </div>
   </div>
