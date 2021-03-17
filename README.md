@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployed in Production server please have a look
 
-Navigate to `https://gameplan.vercel.app`
+Navigate to [https://gameplan.vercel.app](https://gameplan.vercel.app)
 
 ## Development server
 
